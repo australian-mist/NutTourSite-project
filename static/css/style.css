@@ -1,0 +1,82 @@
+
+
+.header {
+	background: white;
+	padding: 2.2em 7%;
+    line-height: 55px;
+}
+
+p span {
+    visibility: hidden;
+    position: absolute;
+    margin: 30px;
+}
+p:hover span {
+    visibility: visible;
+}
+
+.bigger {
+    transition: 1s;
+   }
+.bigger:hover {
+    transform: scale(1.8);
+   }
+
+hr {
+    margin: 5% 10% 5%;
+	border-top: 0.5px solid #ffffff;
+	width: 80%;
+}
+
+.text-70 {
+    margin: 12.5% 0;
+    font-size: 70px;
+    font-weight: lighter;
+    color: #45F7EC;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.text-20 {
+    margin: 12.5% 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+.text-30 {
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+.text-10 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    margin: 0 0 20%;
+}
+
+.text {
+    margin: 3% 0px;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/background.jpg");
+
+    /* Set a specific height */
+    min-height: 5000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
